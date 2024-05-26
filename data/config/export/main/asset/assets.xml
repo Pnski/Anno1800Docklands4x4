@@ -89,7 +89,7 @@
 	</ModOp>
 
 	<!-- Docklands NW -->
-	<Group Condition="//Values[Standard/GUID='1404422070']">
+	<Group Condition="#NewWorldDocklands">
 		<ModOp Type="replace" GUID="1404422070" Path="/Values/ModuleOwner/ModuleLimits"><!-- Number of Starting Modules -->
 			<ModuleLimits>
 				<DocklandModuleStorage><!-- depot -->
@@ -174,22 +174,15 @@
 				</Legendary>
 			</AdditionalModuleLimitsPerExportLevel>
 		</ModOp>
-	</Group>
 	<!-- Docklands Enbesa -->
-	<Group Condition="//Values[Standard/GUID='1404422099']">
 		<ModOp Type="replace" GUID="1404422099" Path="/Values/ModuleOwner/ModuleLimits"
 		Content="//Values[Standard/GUID='1404422070']/ModuleOwner/ModuleLimits" />
 		<ModOp Type="replace" GUID="1404422099" Path="/Values/Dockland/AdditionalModuleLimitsPerExportLevel"
 		Content="//Values[Standard/GUID='1404422070']/Dockland/AdditionalModuleLimitsPerExportLevel" />
-	</Group>
 	<!-- Docklands Arctic -->
-	<Group Condition="//Values[Standard/GUID='1337500801']">
 		<ModOp Type="replace" GUID="1337500801" Path="/Values/ModuleOwner/ModuleLimits"
 		Content="//Values[Standard/GUID='1404422070']/ModuleOwner/ModuleLimits" />
 		<ModOp Type="replace" GUID="1337500801" Path="/Values/Dockland/AdditionalModuleLimitsPerExportLevel"
 		Content="//Values[Standard/GUID='1404422070']/Dockland/AdditionalModuleLimitsPerExportLevel" />
 	</Group>
 </ModOps>
-<!-- <ModOp Type="replace" GUID="1500010225"
-       Path="/Properties/Building/InfluencedVariationDirection"
-       Content="//Values[Standard/GUID='1500010200']/Building/InfluencedVariationDirection" />-->

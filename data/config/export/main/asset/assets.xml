@@ -1,0 +1,5 @@
+<ModOps>
+	<ModOp Type="merge" GUID='131764' Path="/Values/TradeContractFeature/TradeUpgrades/*[not(MaximumAllowedGoods='-1')]">
+		<MaximumAllowedGoods>4</MaximumAllowedGoods>
+	</ModOp>
+</ModOps>

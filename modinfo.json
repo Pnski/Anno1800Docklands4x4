@@ -1,8 +1,8 @@
 {
-  "Version": "0.0.1",
+  "Version": "0.0.2",
   "ModID": "Docklands4x4",
   "DeprecateIds": [],
-  "LoadAfterIds": [],
+  "LoadAfterIds": ["NewWorldDocklands"],
   "IncompatibleIds": null,
   "ModDependencies": null,
   "Category": {

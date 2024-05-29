@@ -1,6 +1,22 @@
 <ModOps>
-	<ModOp Type="merge" GUID='131764' Path="/Values/TradeContractFeature/TradeUpgrades/*[not(MaximumAllowedGoods='-1')]">
+	<!--<ModOp Type="merge" GUID='131764' Path="/Values/TradeContractFeature/TradeUpgrades/*[not(MaximumAllowedGoods='-1')]">
 		<MaximumAllowedGoods>4</MaximumAllowedGoods>
+	</ModOp>-->
+	<ModOp Type="merge" GUID='131764' Path="/Values/TradeContractFeature/TradeUpgrades">
+		<TradeUpgrades>
+			<Uncommon>
+				<MaximumAllowedGoods>4</MaximumAllowedGoods>
+			</Uncommon>
+			<Rare>
+				<MaximumAllowedGoods>4</MaximumAllowedGoods>
+			</Rare>
+			<Epic>
+				<MaximumAllowedGoods>4</MaximumAllowedGoods>
+			</Epic>
+			<Legendary>
+				<MaximumAllowedGoods>4</MaximumAllowedGoods>
+			</Legendary>
+		</TradeUpgrades>
 	</ModOp>
 	<!-- Docklands OW -->
 	<ModOp Type="replace" GUID="601470" Path="/Values/ModuleOwner/ModuleLimits"><!-- Number of Starting Modules -->
